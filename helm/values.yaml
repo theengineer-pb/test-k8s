@@ -1,0 +1,6 @@
+test:
+  deploymentName: hello-deployment
+  image: us-central1-docker.pkg.dev/rock-loop-449918-b0/docker-repo/hello:1.0.9
+  replicas: 2
+  serviceName: hello-service
+  servicetype: NodePort
